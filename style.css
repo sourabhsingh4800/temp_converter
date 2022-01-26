@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    border: 20px;
+}
+div {
+    height: 33vh;
+}
+#fahrenheit {
+    border-bottom:4px solid white;
+    border-top:4px solid white;
+}
+#kelvin {
+    border-bottom: 4px solid white;
+}
+#celsius {
+    border-top: 4px solid white;
+}
+input[type=number] {
+    width:100%;
+    height: 100%;
+    background: black;
+    outline: none;
+    color:white;
+    font-size: 8em;
+    text-align: center;
+    border: 20px;
+    font-family: 'Asap', sans-serif;
+}
+::placeholder{
+    color: #333333;
+}
